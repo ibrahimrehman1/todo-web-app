@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.5">
-    <title>TODO App</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <h1>Ibrahim's TODO App</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+    <title>TODO Application</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <h1>My TODO App</h1>
     <div id="divider">
-        <input type="text" id="todo-item" spellcheck="false">
-        <button type="button" onclick="add()">Add</button>
+      <input type="text" class="todo-field" spellcheck="false" />
+      <button type="button" class="add-todo">Add</button>
     </div>
-    <div style="text-align: start;margin-top: 2em;">
-        <ul id="unordered">
-        </ul>
+    <div class="todo-container">
+      <ul id="unordered"></ul>
     </div>
-</body>
-<script src="./app.js"></script>
+  </body>
 </html>
